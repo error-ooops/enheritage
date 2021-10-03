@@ -11,9 +11,13 @@
     margin: 5px 0px;
 }
 
-.footer__item > a{
+.footer__link{
     text-transform: uppercase;
     font-size: var(--secondary-font-size);
     color: var(--primary-shape-dark);
     text-decoration: none;
+}
+
+.active__footerLink{
+    color: #A1A77C;
 }

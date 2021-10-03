@@ -7,7 +7,7 @@ import Footer from '../../components/footer/Footer';
 import FooterNav from '../../components/footer-navigator/FooterNav';
 import ProjectMembership from '../../components/project-membership/ProjectMembership';
 import ProjectContent from '../../components/project-content/ProjectContent';
-import ProjectGallary from '../../components/project-gallary/ProjectGallary';
+
 
 function Projects({match}) {
     console.log(match)
@@ -16,7 +16,6 @@ function Projects({match}) {
             <Header />
             <Banner bannerImage={project_banner} match={match}/>
             <ProjectContent/>
-            <ProjectGallary/>
             <ProjectMembership/>
             <FooterNav/>
             <Footer/>

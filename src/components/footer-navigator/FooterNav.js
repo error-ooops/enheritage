@@ -7,13 +7,13 @@ function FooterNav() {
         <div className="footer__nav">
             <ul className="footer__collection">
           <li className="footer__item">
-            <NavLink activeClassName="active__footerLink" to="/">Sobieszyn</NavLink>
+            <NavLink className="footer__link" activeClassName="active__footerLink" to="/projects/sobieszyn">Sobieszyn</NavLink>
           </li>
           <li className="footer__item">
-            <NavLink activeClassName="active__footerLink" to="/">Pilica</NavLink>
+            <NavLink className="footer__link" activeClassName="active__footerLink" to="/projects/pilica">Pilica</NavLink>
           </li>
           <li className="footer__item">
-            <NavLink to="/">Short Documentaries</NavLink>
+            <NavLink className="footer__link" to="/">Short Documentaries</NavLink>
           </li>
         </ul>
         </div>

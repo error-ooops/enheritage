@@ -9,10 +9,10 @@ function Banner({ bannerImage, match }) {
         <h1 className="banner__title">Projects</h1>
         <ul className="banner__collection">
           <li className="banner__item">
-            <NavLink activeClassName="active__bannerLink" to={`${match?.url}/sobieszyn`}>Sobieszyn</NavLink>
+            <NavLink activeClassName="active__bannerLink" to={`/projects/sobieszyn`}>Sobieszyn</NavLink>
           </li>
           <li className="banner__item">
-            <NavLink activeClassName="active__bannerLink" to={`${match?.url}/pilica`}>Pilica</NavLink>
+            <NavLink activeClassName="active__bannerLink" to={`/projects/pilici`}>Pilica</NavLink>
           </li>
           <li className="banner__item">
             <NavLink to="/">Short Documentaries</NavLink>
