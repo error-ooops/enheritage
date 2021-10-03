@@ -1,0 +1,8 @@
+.container{
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-light-color);
+    background-image: url('../../assets/stock/background.svg');
+    background-size: cover;
+    background-position: center;
+}
