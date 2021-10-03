@@ -2,17 +2,17 @@ import React from "react";
 import "./Banner.css";
 import { NavLink } from "react-router-dom";
 
-function Banner({ bannerImage }) {
+function Banner({ bannerImage, match }) {
   return (
     <div className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
       <div className="banner__content">
         <h1 className="banner__title">Projects</h1>
         <ul className="banner__collection">
           <li className="banner__item">
-            <NavLink to="/">Sobieszyn</NavLink>
+            <NavLink activeClassName="active__bannerLink" to={`${match.url}/sobieszyn`}>Sobieszyn</NavLink>
           </li>
           <li className="banner__item">
-            <NavLink activeClassName="active__bannerLink" to="projects/pilica">Pilica</NavLink>
+            <NavLink activeClassName="active__bannerLink" to={`${match.url}/pilica`}>Pilica</NavLink>
           </li>
           <li className="banner__item">
             <NavLink to="/">Short Documentaries</NavLink>
