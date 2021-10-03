@@ -1,0 +1,130 @@
+.dukla{
+    width: 100%;
+    height: 210vh;
+    /* background-color: red; */
+}
+.palace__about__top{
+    width: 1500px;
+    height: 150px;
+    border: 1px solid transparent;
+}
+
+.palace__about__text{
+    font-size: 21px;
+    /* position: absolute; */
+    font-family: Raleway;
+    font-weight: 400;
+    margin-top: 180px;
+    margin-left: 500px;
+}
+
+.dukla__image{
+    width: 1150px;
+    height: 1050px;
+    background: url('../../assets/stock/palace_image.png');
+    position: relative;
+    margin-top: 300px;
+    margin-left: 420px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.dukla__palace__text{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-family: Baskerville Old Face;
+    font-weight: 400;
+    font-size: 144px;
+    color: #fff;
+}
+
+.about__bottom{
+    width: 1165px;
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 420px;
+    margin-top: 80px;
+    color: #1B1B1B;
+}
+
+.about__bottom__text__second{
+    width: 1165px;
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 20px;
+    color: #1B1B1B;
+    margin-left: -20px;
+}
+
+.about__bottom__third{
+    width: 1165px;
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+    color: #1B1B1B;
+}
+
+.about__bottom__fourth{
+    width: 1165px;
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+    color: #1B1B1B;
+}
+
+.palaceImg_and_text{
+    position: absolute;
+    width: 1230px;
+    height: 55  0px;
+    margin-top: 150px;
+    margin-left: 400px;
+    position: relative;
+}
+.text__left{
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.text_right{
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -100px;
+    margin-left: 650px;
+}
+
+.img_right{
+    margin-left: 648px;
+    position: absolute;
+    bottom: 154px;
+}

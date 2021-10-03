@@ -1,0 +1,12 @@
+.back__map{
+    position: relative;
+    left: 0;
+    top: -200px;
+    z-index: -1;
+    border: none;
+}
+
+.back__map iframe{
+    position: absolute;
+    border: none;
+}

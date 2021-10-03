@@ -11,7 +11,7 @@ export const nav_links = [
     },
     {
         "id" : 2,
-        "route" : "/",
+        "route" : "/owners",
         "name" : "owners"
     },
     {
