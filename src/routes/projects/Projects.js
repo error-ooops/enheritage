@@ -10,11 +10,11 @@ import ProjectContent from '../../components/project-content/ProjectContent';
 
 
 function Projects({match}) {
-    console.log(match)
+    document.title = "Enheritage | Projects";
     return (
         <div className="projects">
             <Header />
-            <Banner bannerImage={project_banner} match={match}/>
+            <Banner bannerImage={project_banner} config={true}/>
             <ProjectContent/>
             <ProjectMembership/>
             <FooterNav/>

@@ -2,7 +2,7 @@ import React from "react";
 import "./Banner.css";
 import { NavLink } from "react-router-dom";
 
-function Banner({ bannerImage, match }) {
+function Banner({ bannerImage, config }) {
   return (
     <div className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
       <div className="banner__content">
@@ -15,11 +15,12 @@ function Banner({ bannerImage, match }) {
             <NavLink activeClassName="active__bannerLink" to={`/projects/pilica`}>Pilica</NavLink>
           </li>
           <li className="banner__item">
-            <NavLink to="/">Short Documentaries</NavLink>
+            <NavLink activeClassName="active__bannerLink" to="/projects/shortdocumentaries">Short Documentaries</NavLink>
           </li>
         </ul>
       </div>
-      <div className="banner__description">
+      {
+        config ? <div className="banner__description">
         <p className="banner__descriptionText">
           This is only a fraction of what we have been involved in. We take
           extra care on every project and we try to make every decision
@@ -28,7 +29,8 @@ function Banner({ bannerImage, match }) {
           rise awareness of the historical importance of such sites.
         </p>
         <button className="filled__dark">find out more</button>
-      </div>
+      </div> : <></>
+      }
     </div>
   );
 }

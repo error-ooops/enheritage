@@ -13,7 +13,7 @@ function FooterNav() {
             <NavLink className="footer__link" activeClassName="active__footerLink" to="/projects/pilica">Pilica</NavLink>
           </li>
           <li className="footer__item">
-            <NavLink className="footer__link" to="/">Short Documentaries</NavLink>
+            <NavLink className="footer__link" activeClassName="active__footerLink" to="/projects/shortdocumentaries">Short Documentaries</NavLink>
           </li>
         </ul>
         </div>
