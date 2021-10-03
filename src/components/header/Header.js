@@ -20,7 +20,7 @@ function Header() {
               <li className="header__language">PL</li> {" | "}
               <li className="header__language">EN</li>
             </ul>
-            <button className="outlined__button">almanac</button>
+            <NavLink to="/almanac"><button className="outlined__button">almanac</button></NavLink>
             <button className="filled__button">get involved</button>
           </div>
           <ul className="header__routeCollection">

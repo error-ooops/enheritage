@@ -7,6 +7,7 @@ import MainBanner from '../../components/main-banner/MainBanner';
 import './Home.css';
 
 function Home() {
+    document.title = "Enheritage | Home";
     return (
         <div className="home">
             <Header/>
