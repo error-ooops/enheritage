@@ -7,11 +7,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .banner__content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 61%;
 }
 
@@ -20,4 +22,42 @@
     font-family: var(--black-old-font);
     font-weight: normal;
     color: var(--primary-light-color);
+}
+
+.banner__collection{
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.banner__item{
+    margin: 10px 0px;
+}
+
+.banner__item > a{
+    color: var(--primary-light-color);
+    font-family: var(--primary-font-family);
+    font-size: var(--secondary-font-size);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner__description{
+    width: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+    padding: 58px 68px;
+}
+
+.banner__descriptionText{
+    font-family: var(--primary-font-family);
+    font-size: var(--secondary-font-size);
+    width: 63%;
+}
+
+.active__bannerLink{
+    border-bottom: 2px solid var(--primary-light-color);
 }
