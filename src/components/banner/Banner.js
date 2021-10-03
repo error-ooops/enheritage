@@ -9,10 +9,10 @@ function Banner({ bannerImage, match }) {
         <h1 className="banner__title">Projects</h1>
         <ul className="banner__collection">
           <li className="banner__item">
-            <NavLink activeClassName="active__bannerLink" to={`${match.url}/sobieszyn`}>Sobieszyn</NavLink>
+            <NavLink activeClassName="active__bannerLink" to={`${match?.url}/sobieszyn`}>Sobieszyn</NavLink>
           </li>
           <li className="banner__item">
-            <NavLink activeClassName="active__bannerLink" to={`${match.url}/pilica`}>Pilica</NavLink>
+            <NavLink activeClassName="active__bannerLink" to={`${match?.url}/pilica`}>Pilica</NavLink>
           </li>
           <li className="banner__item">
             <NavLink to="/">Short Documentaries</NavLink>
@@ -27,6 +27,7 @@ function Banner({ bannerImage, match }) {
           involved in preservation of historic buildings, but also we try to
           rise awareness of the historical importance of such sites.
         </p>
+        <button className="filled__dark">find out more</button>
       </div>
     </div>
   );

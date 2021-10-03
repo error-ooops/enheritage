@@ -3,9 +3,11 @@ import './Projects.css';
 import Header from '../../components/header/Header';
 import Banner from '../../components/banner/Banner';
 import project_banner from '../../assets/stock/projects_banner.png'; 
-import {Router, Route, Switch} from 'react-router-dom';
-import Pilica from '../pilica/Pilica';
-import Sobieszyn from '../sobieszyn/Sobieszyn';
+import Footer from '../../components/footer/Footer';
+import FooterNav from '../../components/footer-navigator/FooterNav';
+import ProjectMembership from '../../components/project-membership/ProjectMembership';
+import ProjectContent from '../../components/project-content/ProjectContent';
+import ProjectGallary from '../../components/project-gallary/ProjectGallary';
 
 function Projects({match}) {
     console.log(match)
@@ -13,11 +15,11 @@ function Projects({match}) {
         <div className="projects">
             <Header />
             <Banner bannerImage={project_banner} match={match}/>
-            <Switch>
-                <Route path={`${match.path}/pilica`} component={Pilica}/>
-                <Route path={`${match.path}/sobieszyn`} component={Sobieszyn}/>
-                <Route path={`${match.path}/pilica`} component={Pilica}/>
-            </Switch>
+            <ProjectContent/>
+            <ProjectGallary/>
+            <ProjectMembership/>
+            <FooterNav/>
+            <Footer/>
         </div>
     )
 }

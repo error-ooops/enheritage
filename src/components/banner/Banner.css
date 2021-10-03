@@ -62,3 +62,16 @@
     color: red;
     border-bottom: 2px solid var(--primary-light-color);
 }
+
+.filled__dark{
+    width: 180px;
+    height: 41px;
+    background-color: var(--secondary-shape-dark);
+    color: var(--primary-light-color);
+    text-transform: uppercase;
+    border-radius: var(--primary-button-radious);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
