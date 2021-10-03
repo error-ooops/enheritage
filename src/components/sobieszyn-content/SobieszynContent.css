@@ -26,7 +26,7 @@
 
 .sb__collage{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
 }
 
@@ -37,7 +37,6 @@
 
 .sb__supportive{
     width: 65%;
-    height: 500px;
     background-color: var(--primary-light-color);
     transform: translateY(-100px);
     position: relative;
@@ -53,6 +52,7 @@
 
 .sb__secondary{
     width: 100%;
+    margin: 0vw;
     background: #F4F4F4;
 }
 

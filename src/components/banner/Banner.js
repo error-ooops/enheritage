@@ -12,7 +12,7 @@ function Banner({ bannerImage, match }) {
             <NavLink activeClassName="active__bannerLink" to={`/projects/sobieszyn`}>Sobieszyn</NavLink>
           </li>
           <li className="banner__item">
-            <NavLink activeClassName="active__bannerLink" to={`/projects/pilici`}>Pilica</NavLink>
+            <NavLink activeClassName="active__bannerLink" to={`/projects/pilica`}>Pilica</NavLink>
           </li>
           <li className="banner__item">
             <NavLink to="/">Short Documentaries</NavLink>
